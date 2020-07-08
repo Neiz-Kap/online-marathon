@@ -22,6 +22,7 @@ body {
     padding: 0 20px;
 }
 
+
 /* header */
 
 .header {
@@ -64,8 +65,8 @@ body {
 
 .head-text-1 {
     font-size: 15px;
-    width: 92px;
-    height: 10px;
+    width: 100px;
+    height: 25px;
     font-weight: bold;
 }
 
@@ -74,7 +75,7 @@ body {
     height: 16px;
     font-size: 21px;
     font-weight: bold;
-    margin-top: 7px;
+    margin-top: -5px;
     padding-top: 3px;
 }
 
@@ -113,7 +114,9 @@ nav a:hover {
     order: 2;
 }
 
+
 /* Окно для регистрации */
+
 .section {
     height: auto;
     background-image: url("../img/background.png");
@@ -196,7 +199,9 @@ nav a:hover {
     margin: 18px auto 0;
 }
 
-.input-name input, .input-email input, .input-tel input {
+.input-name input,
+.input-email input,
+.input-tel input {
     width: 100%;
     height: 48px;
     font-size: 13px;
@@ -206,7 +211,9 @@ nav a:hover {
     display: block;
 }
 
-.input-name input:focus, .input-email input:focus, .input-tel input:focus {
+.input-name input:focus,
+.input-email input:focus,
+.input-tel input:focus {
     outline: none;
     color: black;
     border-bottom: 2px solid black;
@@ -235,6 +242,7 @@ nav a:hover {
     color: #adadad;
     margin-bottom: 40px;
 }
+
 
 /* Факты о фрилансерах */
 
@@ -324,13 +332,15 @@ nav a:hover {
     margin: 74px 135px 74px 0;
 }
 
-.dyk-p, .few-wag {
+.dyk-p,
+.few-wag {
     font-size: 28px;
     font-weight: bold;
     margin-bottom: 29px;
 }
 
-.inf-static, .few-wag-2 {
+.inf-static,
+.few-wag-2 {
     font-size: 15px;
 }
 
@@ -379,6 +389,7 @@ nav a:hover {
 .mouth-q {
     font-size: 21px;
 }
+
 
 /* why-block */
 
@@ -443,6 +454,7 @@ nav a:hover {
     font-size: 15px;
 }
 
+
 /* distribut */
 
 .distribut {
@@ -480,7 +492,9 @@ nav a:hover {
     -ms-grid-column: 5;
 }
 
-.distribut-block, .distribut-block-2, .distribut-block-3 {
+.distribut-block,
+.distribut-block-2,
+.distribut-block-3 {
     border-radius: 5px;
     -webkit-box-shadow: 0 13px 98px 0 rgb(0, 0, 0, .24);
     box-shadow: 0 13px 98px 0 rgb(0, 0, 0, .24);
@@ -520,6 +534,7 @@ nav a:hover {
     margin: auto;
 }
 
+
 /* registration */
 
 .registration {
@@ -547,6 +562,15 @@ nav a:hover {
     font-weight: bold;
     text-align: center;
     margin-bottom: 32px;
+}
+
+.sb {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
 }
 
 .down-block-reg {
@@ -577,6 +601,7 @@ nav a:hover {
     display: -ms-flexbox;
     display: flex;
 }
+
 
 /* footer */
 
@@ -660,7 +685,8 @@ foot-def {
         text-align: center;
         margin: 20px auto 50px;
     }
-    .dyk-p, .few-wag {
+    .dyk-p,
+    .few-wag {
         margin-bottom: 5px;
     }
     .second-part-bof {
@@ -715,7 +741,9 @@ foot-def {
         -ms-grid-row: 1;
         -ms-grid-column: 1;
     }
-    .distribut-block, .distribut-block-2, .distribut-block-3 {
+    .distribut-block,
+    .distribut-block-2,
+    .distribut-block-3 {
         width: 300px;
         height: 170px;
     }
