@@ -641,24 +641,29 @@ foot-def {
     .section {
         height: 670px;
     }
+    .sctn,
     .sb {
         display: block;
     }
-    .s-block-text {
+    .section-text {
         width: auto;
         padding-top: 45px;
     }
-    .s-block-text-1 {
+    .section-txt-1 {
         margin: 0 auto;
     }
-    .s-block-text-2 {
-        font-size: 30px;
+    .section-txt-2 {
+        font-size: 29px;
+        margin: 8px 0;
     }
     .black-time-block {
         margin: 10px auto 0;
     }
     .login {
         margin: 30px auto;
+    }
+    .login-text {
+        padding-top: 30px;
     }
     .block-of-fact {
         padding: 35px 0 0;
